@@ -1,0 +1,30 @@
+h1 {
+    color: darkgreen;
+}
+
+.container
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;.
+    
+}
+p{
+    line-height: 25px;
+}
+a{
+    text-decoration: none; 
+    
+}
+p2{
+    text-transform: uppercase;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: palevioletred;
+
+
+ }
+ img{
+     float: right;
+ }
