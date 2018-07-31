@@ -1,0 +1,23 @@
+.main {
+    background: black;
+}
+h1{
+    color: #e2e80f;
+}
+.para{
+    color: #eeeeee;
+    font-size: 150%;
+    line-height: 150%;
+}
+span.credits{
+    text-decoration-line: underline;
+    color: red;
+     
+}
+span.credits:hover {
+    cursor: not-allowed ;
+} 
+#film-description {
+    font-size: 80%;
+    font-style: italic;
+}

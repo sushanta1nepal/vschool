@@ -1,0 +1,21 @@
+
+
+.add{
+    background-color: blueviolet;
+    height: 100px;
+    font: times white bold,
+}
+.minus{
+    background-color: brown;
+    height: 100px;
+    font: times white bold;
+
+    
+
+}
+
+.multiply{
+    background-color: chartreuse;
+    height: 100px;
+    font: times white bold;
+}

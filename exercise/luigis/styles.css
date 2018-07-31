@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width:1200px;
+}
+@media(min-width:50px), (max-width:500px){
+    #display{
+        width:100%;
+        background: transparent;
+    }
+}
+@media(min-width:500px),(max-width:1000px){
+    #display{
+        width: 100%;
+        background: transparent;
+    }
+}
+@font-face{
+    font-family: MARIO;
+    src: url(SuperMario256.ttf);
+}
+.header{
+    font-family: MARIO;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100px;
+    width:100%;
+    background:yellow;
+    font-size: 50px;
+    color:red;
+}
+.red{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    background-color: red;
+    height:500px;
+}
+.luigi{
+    width: auto;
+    height:400px;
+}
+.white{
+    height: 250px;
+    width:auto;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    font-family: MARIO;
+    color:red;
+}
+.white > p{
+    width:250px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size:140%;
+}
+.foot{
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    align-items:center;
+    background:yellow;
+    height:80px;
+    width: auto;
+}
+.mushroom{
+    height:70px;
+    width: auto;
+}

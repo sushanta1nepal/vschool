@@ -1,0 +1,67 @@
+*{
+    background-color: #dc1f29;
+}
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: #FAE935;
+    color:white;
+  }
+  
+  
+  .header {
+    padding: px;
+    font-size: 40px;
+    text-align: center;
+    background: #000000;
+  }
+  
+  
+  .leftcolumn { 
+    float: left;
+    width: 75%;
+  }
+  
+  
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+  
+  
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  
+  .card {
+    background-color: #000000;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #FAE935;
+    margin-top: 20px;
+  }
+  
+  
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn { 
+      width: 100%;
+      padding: 0;
+    }
+  }
