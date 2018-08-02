@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    font-size: 0px;
+    align-content: center;
+}
+
+#box{
+    display: inline-block;
+    background-color: black;
+    width: 500px;
+    height: 500px;
+    border: seashell, 10% solid;
+    box-align: center;
+    position:absolute;
+    
+    box-shadow: 500px 500px 500px 500px rgb(255, 120, 142);
+}

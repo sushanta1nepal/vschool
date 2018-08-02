@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.superclass {
+    width: 100%;
+    background: width 100%;
+}
+@media(min-width:500px), (max-width:1000px){
+    #display{
+        width:300px;
+        background: black;
+    }
+}
+@media(min-width:50px), (max-width:500px){
+    #display{
+        width:150px;
+        background: black;
+    }
+}
+ @font-face {
+    font-family: MARIO;
+    src: url(SuperMario256.ttf);
+}
+
+div {
+    font-family: MARIO;
+}
+h1{
+    font-family: MARIO;
+    color: rgb(0, 0, 0);
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+}
+h1 {
+    background: red;
+    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 75px;
+    margin-top: 30px;
+}
+html { 
+    background: url("https://pre00.deviantart.net/170b/th/pre/i/2016/038/5/6/super_mario_flat_design_wallpaper_by_ivanomatt147-d9qvku9.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width:100%;
+    padding-top: 150px
+}
+img{
+    width: 55%;
+    height: auto;
+}
+.goombaBox, .bobBox, .cheepBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 33.333%;
+    text-align: center;
+    font-family: MARIO;
+    background: red;
+    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 150%;
+}
+
+#gooms{
+    width:30%;
+}
+#bobs{
+    width: 40%;
+}
+#cheeps{
+    width: 40%;
+}
+button{
+    font-family: MARIO;
+    background: red;
+    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    width: 100%;
+    margin-top: 60px;
+    border: none;
+}
+input[type=number1]  {
+    font-family: MARIO;
+    -webkit-text-fill-color: black;
+    height: 50px;
+    width: 70%;
+    font-size: 40px;
+}
+input[type=number2]  {
+    font-family: MARIO;
+    -webkit-text-fill-color: black;
+    height: 50px;
+    width: 70%;
+    font-size: 40px;
+}
+input[type=number3]  {
+    font-family: MARIO;
+    -webkit-text-fill-color: black;
+    height: 50px;
+    width: 70%;
+    font-size: 40px;
+}
+#gooms:hover, #bobs:hover, #cheeps:hover{
+    transform: scale(1.5);
+}
+button:hover{
+    transform: scale(1.5)
+}
+#total{
+    font-family: MARIO;
+    background: red;
+    background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+    background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+    background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 50px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    width:100%;
+    margin-top:3%;
+}

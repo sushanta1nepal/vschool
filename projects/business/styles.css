@@ -1,0 +1,338 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: auto;
+}
+/* @media only screen and (max-width:1700px){
+    #display{
+        width: 100%;
+        background: transparent;
+        
+    }
+    .centered{
+        font-size: 80px;
+    }
+    .centered > p{
+        font-size: 30px;
+    }
+} */
+.topnav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height:100px;
+    width:100%;
+    background: white;
+    font-family: 'Aldrich', sans-serif;
+    flex-shrink: 8;
+}
+.logo{
+    height:100px;
+    width: auto;
+}
+/* #mainBackg{
+    width: 1420px;
+} */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    width:100%;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Aldrich';
+    font-size: 100px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+}
+.centered > p{
+    font-size:50px;
+}
+.centered > h6{
+    font-size: 25px;
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height:100px;
+    width:100%;
+    background: white;
+    font-family: 'Aldrich', sans-serif;
+}
+.footlogo{
+    height: 50px;
+    width: auto;
+}
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+a:hover{
+    text-shadow: gold 5px 5px 5px 5px;
+}
+a:active{
+    color: goldenrod
+}
+.backg1{
+    display: flex;
+}
+@media only screen and (max-width:1300px){
+    #display{
+        width: 100%;
+        background: transparent;
+        
+    }
+    .centered h1{
+        font-size: 80px;
+    }
+    .centered > p{
+        font-size: 30px;
+    }
+    .logo{
+        width:70px;
+        height: auto;
+    }
+    .footlogo{
+        width:30px;
+        height: auto;
+    }
+}
+@media only screen and (max-width:900px){
+    #display{
+        width: 100%;
+        background: transparent;
+        
+    }
+    .centered h1{
+        font-size: 80px;
+    }
+    .centered > p{
+        font-size: 30px;
+    }
+
+    .centered > h6{
+    font-size: 12.5px;
+    }
+    a{
+    font-size: 12px;
+    }
+    .foot{
+        font-size: 12px;
+    }
+    .logo{
+        width:50px;
+        height: auto;
+    }
+    .footlogo{
+        width: 23px;
+        height: auto;
+    }
+    }
+
+@media only screen and (max-width:750px){
+    #display{
+        width: 100%;
+        background: transparent;
+        
+    }
+    .centered h1{
+        font-size: 40px;
+    }
+    .centered > p{
+        font-size: 15px;
+    }
+    .centered > h6{
+        font-size: 12.5px;
+    }
+    a{
+    font-size:6px;
+    }
+    .foot{
+        font-size:6px;
+    }
+    .footlogo{
+        width:17px;
+        height:auto;
+    }
+}
+a{color:black;
+}
+.container2 {
+    position: relative;
+    text-align: center;
+    color: white;
+    width:100%;
+}
+.centered1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Aldrich';
+    font-size: 100px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+#top{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Aldrich';
+    margin-top: 15px;
+    margin-bottom:15px;
+    font-size: 40px;
+}
+.ranges{
+    font-family: 'Aldrich';
+    font-size: 40px;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+
+}
+.everest{
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    align-items: center;
+    width:100%;
+    height:700px;
+}
+.annapurna{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 700px;      
+}
+.dhaulagiri{
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    align-items: center;
+    width:100%;
+    height:700px;
+}
+.langtang{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 700px;   
+}
+.manaslu{
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    align-items: center;
+    width:100%;
+    height:700px;
+}
+.tilicho{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 700px;  
+}
+.mustang{
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    align-items: center;
+    width:100%;
+    height:700px;
+}
+#quote{
+    font-family: 'Aldrich';
+    font-size: 18px;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    margin-left:10px;
+
+}
+.us1,
+.us2,
+.us3,
+.us4{
+    font-family: 'Aldrich';
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+h5{
+    font-size:40px;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+.contactus{
+    font-family: 'Aldrich';
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+.message{
+    width: 500px;
+    height: 300px;
+}
+button{
+    font-family: 'Aldrich';
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 12px;
+}
+button:active{
+    color: goldenrod;
+}
+.everestpic, 
+.dhaupic,
+.manapic,
+.mustangpic{
+    width: 800px; 
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height:500px;
+} 
+.annapic,
+.langpic,
+.tilichopic{
+    width:800px;
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    float:right;
+    height: 500px;
+}
+/* ........................................... */
