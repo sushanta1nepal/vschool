@@ -16,13 +16,13 @@ while(options[option] != 'fight bears'){
 }
 console.log("You fought a bear and got beat up!");
 
-// var ask = require("readline-sync");
+var ask = require("readline-sync");
 
-// var options = ["pick flowers","shoot guns","fight bears"];
-// var option = "undecided";
-// while(option !="fight bears"){
-//   ask.keyInSelect(options, "what would you like to do today?:");
-//   if (iotion = "pick flowers"){
-//     console.log("you pick some flowes. you make a bouquet.");
-//   } 
-// }
+var options = ["pick flowers","shoot guns","fight bears"];
+var option = "undecided";
+while(option !="fight bears"){
+  ask.keyInSelect(options, "what would you like to do today?:");
+  if (iotion = "pick flowers"){
+    console.log("you pick some flowes. you make a bouquet.");
+  } 
+}

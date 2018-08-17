@@ -1,0 +1,104 @@
+{
+    "appetizers": [
+        {
+            "name": "mozzarella sticks",
+            "description": "batter dipped fried mozzarella cheese",
+            "ingredients": [
+                {
+                "isVeg": true,
+                "hasMeat": false
+                }
+            ]
+        },
+        {
+            "name": "hot Wings",
+            "description": "Spicy chicken wings fried and dipped in hot sauce",
+            "indredients": [
+                {
+                    "isVeg":false,
+                    "hasMeat": true
+                }
+            ]
+        }
+    ],
+    "sandwich": [
+        {
+            "name":"turkey sandwich",
+            "description": "sandwich made with trukey breast meat and served with all wheat bread",
+            "ingrediants":[
+                {
+                    "isVeg": false,
+                    "hasMeat": true,
+                    "whiteBread": false,
+                    "isCold": true
+                }
+            ]
+        },
+        {
+            "name":"chicken club sandwich",
+            "description": "chicken breast with eggs bacon tomato in lightly toasted white bread",
+            "ingrediants":[
+                {
+                    "isVeg":false,
+                    "hasMeat": true,
+                    "whiteBread":true,
+                    "isCold":false
+                }
+            ]
+        }
+        
+    ],
+    "desserts":[
+        {
+            "name": "blue ribbon brownie",
+            "description": "chunks of dark chocolate, nuts and hot fudge with icecream",
+            "ingrediants":[
+                {
+                    "isVeg": true,
+                    "isCold": true,
+                    "hasBread": false,
+                    "hasDairy": true
+
+                }
+            ]
+        },
+        {
+            "name": "butter pecan blondie",
+            "description":"baked with nuts, topped with icecream, glazed with pecans and maple flavored cheese sauce",
+            "ingrediants":[
+                {
+                    "isVeg": true,
+                    "isCold": true,
+                    "hasBread": false,
+                    "hasDairy": true
+
+                }
+            ]
+        }
+    ],
+    "drinks":[
+        {
+            "name":"bloody mary",
+            "description":"cocktail containing vodka, tomato juice, and spices and flavoring",
+            "ingrediants":[
+                {
+                    "hasAlcohol": true,
+                    "hasFruits": true,
+                    "over18": true
+                }
+            ]
+        },
+        {
+            "name":"sprite",
+            "description":"colorless caffince free soft drink created by the Coca Cola company",
+            "ingrediants":[
+                {
+                    "hasAlcohol":false,
+                    "hasFruits": true,
+                    "over18":true
+                }
+            ]
+        }
+    ]
+
+}
