@@ -1,0 +1,21 @@
+.navbarLinks a {
+    text-decoration: none;
+    margin-right: 20px;
+}
+.navbarLinks {
+    display: flex;
+    justify-content: space-evenly;
+    width: 99vw;
+    align-items: center;
+}
+
+.footLinks a{
+    text-decoration: none;
+    margin-right: 20px;
+}
+.footLinks {
+    display: flex;
+    justify-content: space-evenly;
+    width: 99vw;
+    align-items: center;
+}
